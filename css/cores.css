@@ -1,0 +1,83 @@
+body{
+    background-color: rgba(248, 50, 0, 0.7);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+@font-face{
+    src: url("../DigitalLove.ttf");
+    font-family: Digital;
+}
+
+h1{
+    border: 2px solid white;
+    background-color: rgb(117, 33, 196);
+    color: white;
+    font-size: 350%;
+    border-radius: 60px;
+    align-items: center;
+    align-content: center;
+    text-align-last: center;
+}
+
+p{
+    font-family: Digital;
+    font-size: 150%;
+    align-content: center;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+.google-fonte{
+    text-indent: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.google{
+    font-family: 'Bebas Neue', cursive;
+    text-indent: 20px;
+}
+
+.fonte01{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bolder;
+    text-indent: 20px;
+}
+
+.outra{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 5px;
+    line-height: 1.5;
+
+}
+
+table{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th{
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 10px;
+}
+
+tr:nth-child(odd){
+    background-color: #dddddd;
+}
+
+.Inicial {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+    padding: 5px;
+    align-content: center;
+  }
+
+  .Inicial:hover {
+    color:yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
